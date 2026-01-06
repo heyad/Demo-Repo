@@ -238,9 +238,9 @@ git diff
 git diff <branch-name>
 
 # Undo changes
-git checkout -- <filename>  # Discard changes in working directory
-git reset HEAD <filename>   # Unstage file
-git revert <commit-hash>    # Revert a commit
+git restore <filename>              # Discard changes in working directory
+git restore --staged <filename>     # Unstage file
+git revert <commit-hash>            # Revert a commit
 
 # Stash changes
 git stash
